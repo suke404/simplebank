@@ -1,7 +1,9 @@
 # Simple Bank Project
 This is a personal project to design, develop and deploy a backend web service from scratch.
+
 My goal is to create a functional APIs, and at the same time learn more about the tools for backend development.
-The programming language that I will be using to develop the service will is **Golang**
+
+The programming language that I will be using to develop the service will be **Golang**
 
 ## Simple bank service
 This project will provide APIs for the frontend to do the following:
