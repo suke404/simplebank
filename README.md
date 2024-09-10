@@ -1,5 +1,3 @@
-[![GoDoc](https://pkg.go.dev/badge/github.com/golang-migrate/migrate)](https://pkg.go.dev/github.com/golang-migrate/migrate/v4)
-
 # Simple Bank Project
 This is a personal project to design, develop and deploy a backend web service from scratch.
 
