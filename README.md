@@ -20,3 +20,4 @@ make postgres
 ```
 make createdb
 ```
+Github Action is set for CI/CD development.
