@@ -21,3 +21,6 @@ make postgres
 make createdb
 ```
 Github Action is set for CI/CD development.
+
+Current task:
+Implementing the Mock DB for testing HTTP API in Go...
