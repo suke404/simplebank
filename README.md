@@ -60,8 +60,16 @@ make postgres
 + Create simple_bank database:
 ```
 make createdb
-```
-Github Action is set for CI/CD development.
+
+
+## GitHub Actions
+
+This project uses GitHub Actions for Continuous Integration (CI) to automate testing and ensure code quality. Each time a commit is pushed, the tests are automatically executed. Here's how it's set up:
+
+### CI Workflow
+
+- **Linting**: Code is checked for stylistic and syntactical errors to ensure it follows the project's coding standards.
+- **Testing**: Unit tests are run using go built-in `testing` package.
 
 Current task:
 Implementing the Mock DB for testing HTTP API in Go...
