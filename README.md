@@ -51,6 +51,7 @@ To generate the Go code from SQL queries using sqlc:
 ```
 sqlc generate
 ```
+### 5. Generate mock database
 .
 .
 .
