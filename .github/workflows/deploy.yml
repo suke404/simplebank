@@ -5,9 +5,8 @@ on:
     branches: [ main ]
 
 jobs:
-
   deploy:
-    name: Build image
+    name: Build and deploy image to ECR
     runs-on: ubuntu-latest
 
     steps:
@@ -32,4 +31,5 @@ jobs:
         IMAGE_TAG: ${{ github.sha }}
       run: |
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG -t $ECR_REGISTRY/$ECR_REPOSITORY:latest .
-        docker push -a $ECR_REGISTRY/$ECR_REPOSITORY
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
